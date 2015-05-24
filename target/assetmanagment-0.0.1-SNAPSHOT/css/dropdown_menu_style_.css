@@ -1,0 +1,143 @@
+#menubar{
+	height: 35px;
+	width:100%;
+	position: fixed;
+	background-color:#FF6600;
+	border-top: 1px solid;
+	color: black; 
+}
+#menubar ul{
+	margin: 0;
+	padding: 0;
+}
+#menubar li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+	
+	
+}
+#menubar ul li a{
+	text-align: center;
+	text-decoration: none;
+	height: 35px;
+	width: 100px;
+	display: block;
+	color: #fff;
+}
+#menubar ul ul{
+	position: absolute;
+	visibility:hidden;
+	top: 30px;
+}
+#menubar ul li:HOVER ul{
+	visibility: visible;
+	background-color:#FF6600;
+	text-decoration:blink;
+}
+.mblinks{
+	position:relative;
+	height:30px;
+	text-align:left;
+	display: inline;
+			
+}
+.mblinks li a:hover{
+	background-color:olive;
+	text-decoration:blink;
+} 
+.mblinks ul li{
+	display: inline;
+}
+
+.mblinks li a:link{
+	color: #FFF;
+	-moz-color: #FFF;
+	-webkit-color: #FFF;
+	padding:4px 10px;
+	height: 30px;
+	
+	
+}
+
+.mblinks ul li a{
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webtk-border-radius:5px;
+}
+
+#productHeaderId{
+	height: 35px;
+	width:100%;
+	position: fixed;
+	background-color:#600000;
+	border-top: 1px solid;
+	color: black; 
+}
+#productHeaderId ul{
+	margin: 0;
+	padding: 0;
+}
+#productHeaderId li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+	border-right:1px solid white;
+}
+
+
+#productHeaderId ul li a{
+	text-align: center;
+	text-decoration: none;
+	height: 35px;
+	width: 130px;
+	display: block;
+	color: #fff;
+}
+#productHeaderId ul ul{
+	position: absolute;
+	visibility:hidden;
+	top: 30px;
+}
+#productHeaderId ul li:HOVER ul{
+	visibility: visible;
+	background-color:#600000;
+	text-decoration:blink;
+}
+.productHeaderClass{
+	position:relative;
+	height:30px;
+	text-align:left;
+	display: inline;
+			
+}
+.productHeaderClass li a:hover{
+	background-color:olive;
+	text-decoration:blink;
+} 
+.productHeaderClass ul li{
+	display: inline;
+}
+
+.productHeaderClass li a:link{
+	color: #FFF;
+	-moz-color: #FFF;
+	-webkit-color: #FFF;
+	padding:4px 10px;
+	height: 30px;
+	
+	
+	
+}
+
+.productHeaderClass ul li a{
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webtk-border-radius:5px;
+}
+
+

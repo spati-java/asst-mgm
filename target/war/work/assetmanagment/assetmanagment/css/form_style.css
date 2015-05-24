@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+
+
+#formPage label {
+	float:none;
+	width:105px;
+	height:37px;
+	text-align: right;
+	padding-right: 10px;
+	color: white;
+	font-size: 12px;
+
+	
+}
+#formPage{
+	background-color:#600000;
+	width: 50%;
+	text-indent: 
+}
+
+ #formPage h1 {
+ text-decoration: blink;
+ color: white;
+ font-size: 20px;
+ 
+}
+
+#tableStyle
+{
+text-align:center;	
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:70%;
+border-collapse:collapse;
+background-color: #A0A0A0;
+}
+#tableStyle td, #tableStyle th 
+{
+font-size:1em;
+border:1px solid #600000;
+padding:3px 7px 2px 7px;
+
+}
+#tableStyle th 
+{
+font-size:1.1em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#600000;
+color:#ffffff;
+}
+
+#tableStyle td:HOVER {
+	background-color:#505050;
+	text-decoration:blink;
+}

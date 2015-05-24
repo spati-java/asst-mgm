@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+
+#formPage{
+	text-decoration: line-through;
+	cue-after: none;	
+}
+#formPage body {
+	background-color: #C0C0C0;
+	border: thin;
+	border-color: aqua;
+}
